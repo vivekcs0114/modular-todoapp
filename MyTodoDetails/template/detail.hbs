@@ -1,0 +1,21 @@
+<table class="table table-striped table-dark">
+	<thead>
+		<tr>
+			<th>Description</th>
+			<th>Status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><input type="text" class="form-control task-update" value="{{task}}"></td>
+			<td><input type="radio" class="form-control status-update" {{#if status}} checked {{/if}}></td>
+		</tr>
+		<tr>
+			<td col-spam='2'>Here is some more details about the task like date and time and responsible person fot this task etc</td>
+		</tr>
+		<tr>
+			<td col-spam='2'><button class="editLabel" id="editTask">Edit</button>
+			<button class="updateLabel" id="updateTask">Update</button></td>
+		</tr>
+	</tbody>
+</table>

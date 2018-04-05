@@ -1,0 +1,9 @@
+.header {
+    background: #4080bf;
+    color:white;
+    padding: 15px;
+    margin: 0px;
+}
+.table td {
+    vertical-align: middle !important;
+}

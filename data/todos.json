@@ -1,0 +1,24 @@
+{  
+   "results":[  
+      {  
+         "task":"create a docker image from docker cli",
+         "status":false
+      },
+      {  
+         "task":"push your docker image to docker hub",
+         "status":true
+      },
+      {  
+         "task":"create an ec2 instance on aws",
+         "status":false
+      },
+      {  
+         "task":"deploy your docker image to ec2 machine",
+         "status":true
+      },
+      {  
+         "task":"access your resource from the dns",
+         "status":false
+      }
+   ]
+}

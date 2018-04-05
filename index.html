@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>TodoApp</title>
+   <link rel="stylesheet" type="text/css" href="/css/todo.css">
+   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<h3 class="header">Todo Application with Backbone js</h3>
+	<div class="row">
+		<div class="col-sm-6">
+			<table class="table table-striped table-dark">
+				<thead>
+					<tr id="todoheader"></tr>
+				</thead>
+				<tbody id="todoList"></tbody>
+			</table>
+		</div>
+		<div id="todoDetail" class="col-sm-6"></div>
+	</div>
+</div>
+<script data-main="main.js" src="../node_modules/requirejs/require.js"></script>
+</body>
+</html>
